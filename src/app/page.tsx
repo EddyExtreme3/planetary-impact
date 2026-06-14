@@ -6,34 +6,34 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center">
-      <header className="w-full max-w-348 pt-4">
+    <div className="flex min-h-screen flex-col items-center overflow-x-hidden">
+      <header className="w-full max-w-348 px-6 pt-4 md:px-0">
         <Logo />
       </header>
 
-      <div className="mt-16 w-full max-w-348">
+      <div className="mt-6 w-full max-w-348 md:mt-16">
         <Image
           src="/images/hero.jpg"
           alt="Hero Image"
           width={1392}
           height={464}
           priority
-          className="h-116 w-full object-cover"
+          className="h-45 w-full object-cover md:h-116"
         />
       </div>
 
-      <section className="my-12 max-w-200 px-6 text-center text-header-color">
-        <h2 className="text-5xl font-nunito font-extrabold ">
+      <section className="my-8 max-w-200 px-6 text-center text-header-color md:my-12">
+        <h2 className="text-3xl font-extrabold md:text-5xl">
           &ldquo;Maak werk van Mars&rdquo;
         </h2>
 
-        <h3 className="w-195 h-16 mt-3 text-xl font-space font-normal">
+        <h3 className="mt-3 text-base md:text-xl">
           Mars is de toekomst. Planetary Impact helpt u met het zoeken naar een
           geschikte plek voor uw kolonie.
         </h3>
       </section>
 
-      <section className="mx-auto grid w-full max-w-348 grid-cols-1 gap-4 px-12 py-10 md:grid-cols-2">
+      <section className="grid w-full max-w-348 grid-cols-1 gap-6 px-6 py-8 md:grid-cols-2 md:px-12 md:py-10">
         <Usps
           title="Pioneer Nederzettingsplanning"
           description="Wij verkopen je niet alleen grond - we helpen je bij het plannen van je complete Martiaanse boerderij. Onze gecertificeerde exogeologen en atmosferische ingenieurs bieden uitgebreide locatieanalyse, inclusief bodemsamenstelling rapporten."
@@ -59,9 +59,9 @@ export default function Home() {
         />
       </section>
 
-          <RecentNews />
+      <RecentNews />
 
-      <div className="mt-26 w-full">
+      <div className="mt-8 w-full md:mt-26">
         <Footer />
       </div>
     </div>

@@ -23,17 +23,17 @@ export default function Home() {
       </div>
 
       <section className="my-12 max-w-200 px-6 text-center text-header-color">
-        <h2 className="text-5xl font-extrabold">
+        <h2 className="text-5xl font-nunito font-extrabold ">
           &ldquo;Maak werk van Mars&rdquo;
         </h2>
 
-        <h3 className="mt-3 text-xl">
+        <h3 className="w-195 h-16 mt-3 text-xl font-space font-normal">
           Mars is de toekomst. Planetary Impact helpt u met het zoeken naar een
           geschikte plek voor uw kolonie.
         </h3>
       </section>
 
-      <section className="mx-auto grid w-full max-w-348 grid-cols-1 gap-6 px-6 py-10 md:grid-cols-2 md:px-20">
+      <section className="mx-auto grid w-full max-w-348 grid-cols-1 gap-4 px-12 py-10 md:grid-cols-2">
         <Usps
           title="Pioneer Nederzettingsplanning"
           description="Wij verkopen je niet alleen grond - we helpen je bij het plannen van je complete Martiaanse boerderij. Onze gecertificeerde exogeologen en atmosferische ingenieurs bieden uitgebreide locatieanalyse, inclusief bodemsamenstelling rapporten."
@@ -59,8 +59,11 @@ export default function Home() {
         />
       </section>
 
-      <RecentNews />
-      <Footer />
+          <RecentNews />
+
+      <div className="mt-26 w-full">
+        <Footer />
+      </div>
     </div>
   );
 }

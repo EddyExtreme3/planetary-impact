@@ -4,30 +4,26 @@ type UspsProps = {
   imageUrl: string;
 };
 
-export default function usps({
-  title,
-  description,
-  imageUrl,
-}: UspsProps) {
+export default function Usps({ title, description, imageUrl }: UspsProps) {
   return (
     <article
-      className="relative h-40 rounded-lg overflow-hidden bg-cover bg-center"
+      className="relative h-90 w-full overflow-hidden rounded-2xl bg-cover bg-center"
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
-      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0 bg-black/75" />
 
-      <div className="relative z-10 flex h-full flex-col justify-between p-4">
+      <div className="relative z-10 flex h-full flex-col justify-between p-8">
         <div>
-          <h2 className="mb-2 text-sm font-Nunito Sans text-cyan-400">
+          <h2 className="mb-6 font-nunito text-[24px] font-bold leading-7.25 text-planetary-blue">
             {title}
           </h2>
 
-          <p className="text-xs leading-relaxed font-Space Grotesk text-white">
+          <p className="max-w-140 font-space font-normal leading-5.5 text-white">
             {description}
           </p>
         </div>
 
-        <button className="w-33 h-9.25 rounded-sm bg-planetary-blue text-white">
+        <button className="self-end h-9.25 w-33 rounded bg-planetary-blue font-space text-[16px] text-white">
           Lees meer
         </button>
       </div>

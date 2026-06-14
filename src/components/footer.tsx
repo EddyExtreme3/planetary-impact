@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="mx-auto flex h-87.5 max-w-348 items-center justify-between bg-[#00B2CD] px-20 py-8 text-white">
+    <footer className="mx-auto flex h-87.5 w-full max-w-348 items-center justify-between bg-[#00B2CD] px-20 py-8 text-white">
       <div className="flex h-full flex-col justify-between">
         <div>
           <p className="font-bold">Contact:</p>

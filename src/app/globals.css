@@ -3,18 +3,22 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --Planetary-Blue: #00B2CD;
+  --recentnews-color: #CA433C;
+  --header-color: #3B4559;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-planetary-blue: var(--Planetary-Blue);
+  --color-recentnews-color: var(--recentnews-color);
+  --color-header-color: var(--header-color);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #FFFFFF;
     --foreground: #ededed;
   }
 }
@@ -22,5 +26,4 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }

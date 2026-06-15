@@ -23,11 +23,11 @@ export default function Home() {
       </div>
 
       <section className="my-8 max-w-200 px-6 text-center text-header-color md:my-12">
-        <h2 className="text-3xl font-extrabold md:text-5xl">
+        <h2 className="text-3xl font-nunito font-bold md:font-nunito md:font-extrabold md:text-5xl">
           &ldquo;Maak werk van Mars&rdquo;
         </h2>
 
-        <h3 className="mt-3 text-base md:text-xl">
+        <h3 className="mt-3 font-space font-normal text-base md:text-xl">
           Mars is de toekomst. Planetary Impact helpt u met het zoeken naar een
           geschikte plek voor uw kolonie.
         </h3>

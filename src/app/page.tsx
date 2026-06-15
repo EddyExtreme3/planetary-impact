@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center overflow-x-hidden">
+    <div className="flex min-h-screen flex-col items-center overflow-x-hidden gap-2 md:gap-6">
       <header className="w-full max-w-348 px-6 pt-4 md:px-0">
         <Logo />
       </header>
@@ -18,7 +18,7 @@ export default function Home() {
           width={1392}
           height={464}
           priority
-          className="h-45 w-full object-cover md:h-116"
+          className=" h-auto w-full object-cover md:h-116"
         />
       </div>
 

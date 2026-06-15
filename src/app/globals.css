@@ -14,6 +14,8 @@
   --color-planetary-blue: var(--Planetary-Blue);
   --color-recentnews-color: var(--recentnews-color);
   --color-header-color: var(--header-color);
+  --font-nunito: var(--font-nunito-sans);
+  --font-space: var(--font-space-grotesk);
 }
 
 @media (prefers-color-scheme: dark) {

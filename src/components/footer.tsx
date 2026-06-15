@@ -22,16 +22,46 @@ export default function Footer() {
       </div>
 
       <div className="flex items-end gap-2 self-end md:gap-4">
-        <a href="#" aria-label="LinkedIn" className="flex h-8 w-8 items-center justify-center rounded bg-white md:h-12 md:w-12">
-          <Image src="/icons/LogoIN.svg" alt="LinkedIn" width={20} height={20} className="h-5 w-5 md:h-7 md:w-7" />
+        <a
+          href="#"
+          aria-label="LinkedIn"
+          className="flex h-8 w-8 items-center justify-center rounded bg-white md:h-12 md:w-12"
+        >
+          <Image
+            src="/icons/LogoIn.svg"
+            alt="LinkedIn"
+            width={20}
+            height={20}
+            className="h-5 w-5 md:h-7 md:w-7"
+          />
         </a>
 
-        <a href="#" aria-label="Instagram" className="flex h-8 w-8 items-center justify-center rounded bg-white md:h-12 md:w-12">
-          <Image src="/icons/LogoInsta.svg" alt="Instagram" width={20} height={20} className="h-5 w-5 md:h-7 md:w-7" />
+        <a
+          href="#"
+          aria-label="Instagram"
+          className="flex h-8 w-8 items-center justify-center rounded bg-white md:h-12 md:w-12"
+        >
+          <Image
+            src="/icons/LogoInsta.svg"
+            alt="Instagram"
+            width={20}
+            height={20}
+            className="h-5 w-5 md:h-7 md:w-7"
+          />
         </a>
 
-        <a href="#" aria-label="Twitter" className="flex h-8 w-8 items-center justify-center rounded bg-white md:h-12 md:w-12">
-          <Image src="/icons/LogoTwitter.svg" alt="Twitter" width={20} height={20} className="h-5 w-5 md:h-7 md:w-7" />
+        <a
+          href="#"
+          aria-label="Twitter"
+          className="flex h-8 w-8 items-center justify-center rounded bg-white md:h-12 md:w-12"
+        >
+          <Image
+            src="/icons/LogoTwitter.svg"
+            alt="Twitter"
+            width={20}
+            height={20}
+            className="h-5 w-5 md:h-7 md:w-7"
+          />
         </a>
       </div>
     </footer>

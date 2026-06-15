@@ -18,9 +18,9 @@ export default function Usps({ title, description, imageUrl }: UspsProps) {
             {title}
           </h2>
 
-        <p className="w-77.75 h-27 md:w-142.75 md:h-32.5 font-space text-[14px] font-normal leading-3.5 tracking-[0%] text-white md:text-[20px] md:leading-5">
-          {description}
-        </p>
+          <p className="w-77.75 h-27 md:w-142.75 md:h-32.5 font-space text-[14px] font-normal leading-3.5 tracking-[0%] text-white md:text-[20px] md:leading-5">
+            {description}
+          </p>
         </div>
 
         <button className="self-end w-23.75 h-6 md:h-9.25 md:w-33 rounded-sm bg-planetary-blue font-space font-normal md:text-[18px] text-[12px] text-white">

@@ -12,11 +12,11 @@ export default function RecentNews() {
       </p>
 
       <p className="mt-4 max-w-140 font-space text-[14px] leading-5 text-white md:col-start-1 md:row-start-2 md:mt-8 md:text-[20px] md:leading-7">
-        SpaceX richt zich op 2026 voor Eerste Onbemande Mars Missie.
-        Deze ontwikkeling vertegenwoordigt een grote sprong voorwaarts
-        voor Mars kolonisatie infrastructuur, waarbij industrie-experts
-        significante stijgingen voorspellen in Martiaanse vastgoedwaarden
-        nu de Rode Planeet steeds toegankelijker wordt.
+        SpaceX richt zich op 2026 voor Eerste Onbemande Mars Missie. Deze
+        ontwikkeling vertegenwoordigt een grote sprong voorwaarts voor Mars
+        kolonisatie infrastructuur, waarbij industrie-experts significante
+        stijgingen voorspellen in Martiaanse vastgoedwaarden nu de Rode Planeet
+        steeds toegankelijker wordt.
       </p>
 
       <Image

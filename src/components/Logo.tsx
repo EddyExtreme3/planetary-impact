@@ -1,6 +1,6 @@
 export default function Logo() {
   return (
-        <div className="self-start ">
+    <div className="self-start ">
       <h1 className="font-nunito text-[24px] font-bold md:text-[36px] md:font-bold leading-[25.56px] tracking-tight text-planetary-blue">
         Planetary Impact
       </h1>
@@ -11,4 +11,3 @@ export default function Logo() {
     </div>
   );
 }
-

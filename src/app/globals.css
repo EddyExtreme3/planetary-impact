@@ -3,9 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --Planetary-Blue: #00B2CD;
-  --recentnews-color: #CA433C;
-  --header-color: #3B4559;
+  --Planetary-Blue: #00b2cd;
+  --recentnews-color: #ca433c;
+  --header-color: #3b4559;
 }
 
 @theme inline {
@@ -20,7 +20,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #FFFFFF;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
